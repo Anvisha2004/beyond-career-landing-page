@@ -1,0 +1,39 @@
+.services {
+  background-color: #100425;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.services div {
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background:linear-gradient(135deg, #0CFAF5 0%, #DC00D3 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+  margin-right: 560px;
+  margin-left: 560px;
+ 
+}
+.services div:hover {
+  transform: translateY(-3px);
+}
+.services div:active {
+  transform: translateY(1px);
+}
+
+.services h2 {
+   background: linear-gradient(135deg, #0CFAF5, #DC00D3);
+  background-clip: text;
+  color: transparent;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.services hr {
+  border: none;
+}

@@ -1,0 +1,70 @@
+.about {
+  background-color: #100425;
+  text-align: center;
+  padding: 2rem;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: 'Segoe UI', sans-serif;
+}
+.borderclass{
+   border: 4px solid;
+  border-image: linear-gradient(135deg, #0CFAF5, #DC00D3) 1;
+}
+.about h2 {
+  font-size: 2rem;
+  background: linear-gradient(100deg, #0CFAF5 0%, #DC00D3 100%);
+  background-clip: text;   
+  color: transparent;       
+  margin-bottom: 1rem;
+   position: relative;
+  z-index: 1;
+    padding: 1rem 2.5rem;
+}
+.about h3 {
+   font-size: 1.3rem;
+ color:white;   
+ text-decoration: underline;    
+}
+.about p {
+  font-size: 1.3rem;
+  color:white;        
+  margin-bottom: 1rem;
+   position: relative;
+  z-index: 1;
+    padding: 1rem 2.5rem;
+    text-align: justify;
+}
+
+
+.aboutus {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  /* margin-bottom: 3rem;*/
+  flex-wrap: wrap; 
+}
+
+.aboutus div {
+  background-color: #29064a;
+  padding: 1.5rem; 
+  border-radius: 12px;
+  width: 100%;
+}
+
+.aboutus h3 {
+  font-size: 1.8rem;
+  background: linear-gradient(100deg, #0CFAF5 0%, #DC00D3 100%);
+  background-clip: text;   
+  color: transparent; 
+}
+
+.aboutus p {
+  font-size: 1.2rem; 
+
+}
+.aboutus div:hover {
+  transform: translateY(-3px);
+}
+.aboutus div:active {
+  transform: translateY(1px);
+}
