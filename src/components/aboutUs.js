@@ -11,7 +11,7 @@ const About = () => (
    <div className="aboutus">
       <div>
         <h3>Mission</h3>
-        <p>To help individuals find their purpose and potential while assisting organizations in becoming attractive employers.
+        <p>To help individuals find their purpose and potential while assisting them in becoming attractive employers.
           Offer mentorship programs and workshops tailored to help individuals develop skills, gain practical experience, and make informed career decisions.</p>
       </div>
       <div>

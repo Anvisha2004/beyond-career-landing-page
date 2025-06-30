@@ -5,6 +5,7 @@ import About from './components/aboutUs';
 import Services from './components/services';
 import Testimonials from './components/testimonials';
 import ContactForm from './components/Contact_Form';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Services/>
       <Testimonials/>
       <About/>
-      <ContactForm/>
+      <ContactForm/><br></br>
+      <Footer/>
     </>
   );
 }

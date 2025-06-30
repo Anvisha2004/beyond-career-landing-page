@@ -11,6 +11,7 @@ const ContactForm = () => {
         <button type="submit">Submit</button>
       </form>
     </section>
+    
   );
 };
 

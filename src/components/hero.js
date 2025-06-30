@@ -5,6 +5,7 @@ import heroImg2 from './undraw.svg';
 
 const Hero = () => {
   return (
+    <section id ="home">
     <div className="hero-section">
       <div className="hero-image-row">
   <img src={heroImg} alt="Resume" className="hero-image" />
@@ -17,6 +18,7 @@ const Hero = () => {
         <button>Join us</button>
       </div>
     </div>
+    </section>
   );
 };
 
