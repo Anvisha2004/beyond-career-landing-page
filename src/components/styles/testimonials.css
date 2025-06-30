@@ -63,3 +63,23 @@
   background-clip: text;   
   color: transparent; 
 }
+
+@media screen and (max-width: 600px) {
+  .gradient-text {
+    font-size: 1.5rem;
+  }
+
+  .stats div {
+    width: 140px;
+    padding: 1rem;
+  }
+
+  .stats h3 {
+    font-size: 1.5rem;
+  }
+
+  .testimonial-grid blockquote {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+}
